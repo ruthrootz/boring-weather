@@ -80,9 +80,7 @@ input:-ms-input-placeholder {
     color: white !important;  
 }
 
-/* change gradient colors based on size */
-
-@media only screen and (max-width: 800px) {
+/* @media only screen and (max-width: 800px) {
     html {
         background-image: none;
         background-color: black;
@@ -91,4 +89,4 @@ input:-ms-input-placeholder {
 
 @media only screen and (min-width: 800px) {
 
-}
+} */
