@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8' />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv='X-UA-Compatible' content='ie=edge' />
+  <meta description='carousel test' />
+  <script src='https://code.jquery.com/jquery-3.4.1.js'
+        integrity='sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=' crossorigin='anonymous'></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+  <link rel='stylesheet' type='text/css' href='style.css' />
+  <title>boring weather</title>
+</head>
+
+<body>
+  <div>
+      <div id="weather_carousel" class="carousel slide" data-ride="carousel" data-interval="false">
+        <ol id='weather_carousel__indicators' class="carousel-indicators">
+          <li id='main_indicator' data-target="#weather_carousel" data-slide-to="0" class="active"></li>
+        </ol>
+        <div id='weather_carousel__inner' class="carousel-inner">
+          <div id='main_slide' class="carousel-item active">
+              <div id='main' class='container text-white  min-vh-100 main_item'>
+                  <div class='row'>
+                    <div id='zip_input_div'>
+                        <p>boring weather</p>
+                        <input type="text" class="form-control text-white" id="zip_input_div__input" aria-describedby="zipInput" placeholder="enter a US zipcode"></input>
+                        <input type='button' id='zip_input_button' class='form-control text-white' value='check the weather'></input>
+                        <input type='button' id='refresh_button' class='form-control text-white' value='refresh the weather'></input>
+                    </div>
+                  </div>
+                  <div class='row'>
+                    <div id='refresh_indicator' class='no_indicator'>Refreshed!</div>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#weather_carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#weather_carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src='script.js'></script>
+  <noscript>You do not have JavaScript enabled!</noscript>
+</body>
+
+</html>

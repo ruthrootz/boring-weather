@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-image: linear-gradient(rgb(15, 129, 173), rgb(255, 208, 0));
+    background-attachment: fixed;
+    font-family: 'Slabo 27px', serif;
+}
+
+body {
+    background-color: black;
+}
+
+div {
+    margin: 0 auto;
+    margin-top: 1%;
+}
+
+p {
+    font-size: 2rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30%;
+}
+
+i {
+    font-size: 3rem;
+}
+
+.main_item, .carousel-inner {
+    height: 100vh;
+    background-image: linear-gradient(rgb(15, 129, 173), rgb(255, 208, 0));
+}
+
+.indicator {
+    display: block;
+}
+
+.no_indicator {
+    display: none;
+}
+
+#zip_input_div {
+    width: 50%;
+    margin-top: 15%;
+    text-align: center;
+}
+
+#zip_input_div__input {
+    background-color:rgba(238, 236, 236, 0) !important;
+    border:none !important;
+    border: 5px solid white !important;
+    border-radius: 5px !important;
+    padding: 10%;
+    font-size: 1.05rem;
+    text-align: center;
+    margin-top: 5%;
+}
+
+#zip_input_button, #refresh_button {
+    margin-top: 5%;
+    font-size: 1.05rem;
+    background-color: rgba(0, 0, 0, 0.445);
+}
+
+#weather_carousel__inner {
+    top: 0;
+}
+
+input::-webkit-input-placeholder {
+    color: white !important;
+}
+ 
+input:-moz-placeholder {
+    color: white !important;  
+}
+ 
+input::-moz-placeholder {
+    color: white !important;  
+}
+ 
+input:-ms-input-placeholder {  
+    color: white !important;  
+}
+
+/* @media only screen and (max-width: 800px) {
+    #main {
+        width: 80%;
+        border-radius: 5px;
+        position: fixed;
+        top: 25%;
+        left: 10%;
+        background-color: rgba(128, 128, 128, 0.356);
+    }
+    #zip_input_div {
+        width: 80%;
+        position: fixed;
+        background-color: rgba(128, 128, 128, 0.356);
+        margin-top: 5%;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    #main {
+        width: 40%;
+        border-radius: 5px;
+        position: fixed;
+        top: 25%;
+        left: 30%;
+        background-color: rgba(128, 128, 128, 0.356);
+    }
+    #zip_input_div {
+        width: 40%;
+        position: fixed;
+        background-color: rgba(128, 128, 128, 0.356);
+        margin-top: 5%;
+    }
+} */
