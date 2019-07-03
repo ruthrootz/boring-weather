@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    user-select: none;
 }
 
 html {
@@ -29,7 +30,7 @@ i {
 }
 
 .main_item, .carousel-inner {
-    height: 100vh;
+    height: 95vh;
 }
 
 .indicator {
@@ -79,36 +80,15 @@ input:-ms-input-placeholder {
     color: white !important;  
 }
 
-/* @media only screen and (max-width: 800px) {
-    #main {
-        width: 80%;
-        border-radius: 5px;
-        position: fixed;
-        top: 25%;
-        left: 10%;
-        background-color: rgba(128, 128, 128, 0.356);
-    }
-    #zip_input_div {
-        width: 80%;
-        position: fixed;
-        background-color: rgba(128, 128, 128, 0.356);
-        margin-top: 5%;
+/* change gradient colors based on size */
+
+@media only screen and (max-width: 800px) {
+    html {
+        background-image: none;
+        background-color: black;
     }
 }
 
 @media only screen and (min-width: 800px) {
-    #main {
-        width: 40%;
-        border-radius: 5px;
-        position: fixed;
-        top: 25%;
-        left: 30%;
-        background-color: rgba(128, 128, 128, 0.356);
-    }
-    #zip_input_div {
-        width: 40%;
-        position: fixed;
-        background-color: rgba(128, 128, 128, 0.356);
-        margin-top: 5%;
-    }
-} */
+
+}
