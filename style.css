@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background-color: black;
+    background-color: transparent;
 }
 
 div {
@@ -30,7 +30,6 @@ i {
 
 .main_item, .carousel-inner {
     height: 100vh;
-    background-image: linear-gradient(rgb(15, 129, 173), rgb(255, 208, 0));
 }
 
 .indicator {
@@ -62,10 +61,6 @@ i {
     margin-top: 5%;
     font-size: 1.05rem;
     background-color: rgba(0, 0, 0, 0.445);
-}
-
-#weather_carousel__inner {
-    top: 0;
 }
 
 input::-webkit-input-placeholder {
